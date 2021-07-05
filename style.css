@@ -1,5 +1,5 @@
 h2{
-    color:darkred;
+    color:black
 }
 .heading {
     display: flex;
@@ -8,23 +8,28 @@ h2{
     margin-left: 20px;
     background-color:rgb(156, 151, 180);
     border: solid black;
-    border-radius: 50px;
+    /*border-radius: 50px;*/
 }
-.categories{
+.categories *{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(26, 219, 26);
-    border: solid black;
+    background-color:darkturquoise;
+    border: solid;
     border-radius: 50px;
     margin-top: 20px;
 }
 
-/**{
-    border: solid;
-}*/
 .cubes{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.cubes h3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img:hover{
+    transform:scale(1.1);
 }
